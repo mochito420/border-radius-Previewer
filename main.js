@@ -10,7 +10,7 @@ const radius4 = document.querySelector('.strong4');
 const rangeLeftInput = document.querySelector('.range-left'); 
         rangeLeftInput.addEventListener('input',()=>{
             let leftValue = rangeLeftInput.value;
-            previewer.style.borderBottomLeftRadius = `${leftValue}% ${leftValue}%`
+            previewer.style.borderBottomLeftRadius = `${leftValue}%`
                 radius4.innerText = `${leftValue}%`
     })
 const rangeTopInput = document.querySelector('.range-top');
