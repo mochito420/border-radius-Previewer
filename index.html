@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius Previewer</title>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Noto+Serif:wght@100&family=Sometype+Mono&display=swap" rel="stylesheet">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="previwer-container">
+        <div class="custom-alert" hidden>
+            se han copiado las propiedades!
+        </div>
+        <div class="title">border-radius <strong>Previewer</strong></div>
+            <div class="previwer-border">
+                    <div class="previewer"></div>
+                    <input type="range" value="0" class="range-top">
+                    <input type="range" value="0" class="range-left">
+                    <input type="range" value="0" class="range-bottom" >
+                    <input type="range" value="0" class="range-right">
+            </div>
+            <div class="textbox">
+                <label><strong> border-radius : </strong></label>
+                <div class="text">
+                    <strong class="strong1">0%</strong>
+                    <strong class="strong2">0%</strong>
+                    <strong class="strong3">0%</strong>
+                    <strong class="strong4">0%</strong>
+                </div>
+                <button class="copy-button"><strong>copy</strong></button>
+            </div>
+            <button class="reset-button"><strong> reset </strong></button>
+    </div>
+
+</body>
+</html>
